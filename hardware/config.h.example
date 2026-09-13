@@ -1,0 +1,17 @@
+// Copy this file to "config.h" and fill in your real values.
+// config.h is listed in .gitignore and will NEVER be pushed to GitHub.
+
+#ifndef CONFIG_H
+#define CONFIG_H
+
+// === WiFi Settings ===
+#define WIFI_SSID "your-wifi-name-here"
+#define WIFI_PASSWORD "your-wifi-password-here"
+
+// === MQTT Settings ===
+#define MQTT_SERVER "broker.hivemq.com"
+#define MQTT_PORT 1883
+#define MQTT_TOPIC "home/sensor/frequency"
+#define MQTT_CLIENT_ID "ESP32Client_frequency_monitor"
+
+#endif
