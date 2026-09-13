@@ -179,16 +179,3 @@ source file. Match them against the steady-state deviation values in the Key Res
 table above (each case has a distinct Banepa deviation range) and rename the files
 accordingly before publishing.
 
-## Demo Video
-The presentation source also included a short video file (a live demo, likely of the
-dashboard or hardware in action). It wasn't pulled into this scaffold since video files
-bloat a Git repository — if you want it in the repo, use
-[Git LFS](https://git-lfs.com/), or upload it to YouTube/Drive and link it here instead.
-
-## What Still Needs to Go In
-- [ ] Your actual PowerFactory model files → `simulation/powerfactory_model/`
-- [ ] Correct case labels on the four plots in `simulation/dynamic_simulation_results/`
-      (see note above)
-- [ ] Node-RED flow export JSON, if you still have it → `dashboard/`
-- [ ] Your specific contribution statement (Team section above)
-- [ ] Demo video, if you want it included (see Demo Video section above)
